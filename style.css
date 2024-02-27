@@ -286,6 +286,13 @@ footer{
     border-left: 1px solid #000;
 }
 
+.copyright{
+    margin: auto;
+    text-align:center;
+    color:#fff;
+    background-color: #000;
+}
+
 
 
 
