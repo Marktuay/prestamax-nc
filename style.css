@@ -88,7 +88,7 @@ li a {
     border: #000  solid thin;
     box-shadow: 5px 5px 0px  #000;
     background-image: url('img/slider2.svg');
-    filter: grayscale(100%);
+    filter: grayscale(60%);
     background-repeat: no-repeat, repeat;
     background-position: right;
 }
@@ -259,6 +259,12 @@ a.activite:hover, a.contac:hover, a.requery:hover, a.services:hover, a.product:h
 }
 
 .separator {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+.separator-one {
     margin: 20px;
     padding: 20px;
     
