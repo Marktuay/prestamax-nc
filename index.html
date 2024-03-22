@@ -200,23 +200,28 @@
             </div>
           </div>
           <div class="col">
-            <label>Selecciones el tipo de producto</label>
+            <!--label>Selecciones el tipo de producto</label>
                 <input type="radio" id="hipotecario" name="fav_language" value="hipotecario">
                  <label for="hipotecario">Hipotecario</label><br>
                  <input type="radio" id="consumo" name="fav_language" value="callback-form">
-                 <label for="consumo">Consumo</label><br>
+                 <label for="consumo">Consumo</label><br>-->
           </div>
           <div class="col">
             <label for="amount">Monto del préstamo ($):</label><br>
-            <input type="number">
+            <input type="number" id="monto" value="0" min="0" max="10000">
           </div>
           <div class="col">
             <label for="time">Plazo (meses)</label>
-            <input type="number">
-          </div>
+            <input type="number" id="tiempo" value="1" min="0" max="36">
+          </div> 
           <div class="col">
             <label for="result"> Cuotas:</label><br />
             <div id="res"></div>
+          </div>
+          <div>
+            
+            <input type="button" id="botonCuotaMes" value="cuotaMes">
+
           </div>
         </div>
       </div>
@@ -518,6 +523,7 @@
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/accordions.js"></script>
+    <script src="assets/js/calculof.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
