@@ -1337,3 +1337,34 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
+
+.calculator {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.containerCal {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	align-content: center;
+	margin: auto;
+}
+
+input {
+	width: 150px;
+}
+
+.botonCalculo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedorCuotas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
