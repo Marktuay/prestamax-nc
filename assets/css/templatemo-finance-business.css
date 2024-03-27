@@ -1344,8 +1344,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .containerCal {
-	display: flex;
-	flex-wrap: wrap;
+	position: relative;
 	width: 80%;
 	align-content: center;
 	margin: auto;
