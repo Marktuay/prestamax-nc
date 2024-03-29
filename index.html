@@ -190,6 +190,7 @@
     <!--Calculadora de prestamos-->
     <div class="Calculator">
       <div class="containerCal">
+        <form>
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
@@ -215,17 +216,21 @@
           </div> 
           <div class="col-md-3">
             <div class="botonCalculo">
-              <input type="button" id="botonCuotaMes" value="Cuota Mensual">
-            </div>
+              <div class="buttonCuotas"><input type="button" id="botonCuotaMes" value="Cuota Mensual" class="buttonCalculo"></div>
+              <div class="reset"><input type="reset"  value="Limpiar" class="buttonReset"></div>
+            </div> 
             
 
           </div>
           <div class="col-md-3">
-            <div class="contenedorCuotas"><label> Cuota: <div id="cuotas"></div></label> </div></div>
+            <div class="contenedorCuotas"><label > Cuota: </label> </div>
+            <div id="cuotas"></div>
+          </div>
              
           </div>
           
         </div>
+      </form>
       </div>
           </div>
           </div>

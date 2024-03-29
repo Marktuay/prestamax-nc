@@ -1355,15 +1355,48 @@ input {
 }
 
 .botonCalculo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex ;
+  position: left;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+ width: 200px;
+  }
+
+.buttonCalculo {
+	width: 140px;
+	
+}
+
+.buttonReset {
+	width: 80px;
+}
+
+.buttonCuotas{
+	
+	width: 100px;
+	
 }
 
 .contenedorCuotas {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  position: left;
+  justify-content: space-between;
+  flex-direction:row;
+  width: 200px;
+  
 }
+
+label{
+	width: 100px;	
+	position: absolute;
+}
+#cuotas{
+	width: 100px;
+	position: relative;
+	left: 60px;
+	font-weight: 600;
+	border-bottom: 1px solid black
+}
+
+
+
