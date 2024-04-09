@@ -1436,6 +1436,22 @@ label{
 }
 
 
+/***************************** Form ********************************/
+.form {
+	display: block;
+	margin: auto;
+}
+
+
+.title-form{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.contenedorTipoprestamo{
+	display: inline-flex;
+}
+
 
 
 

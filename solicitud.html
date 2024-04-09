@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/formstyle.css">
+        <!-- Additional CSS Files -->
+        
+        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="title-form">
+            <h1>Solicitud de Crédito</h1><br>
+        </div>
+        <form>
+        <div class="form">
+
+            
+                 <fieldset>
+                
+                    <legend>Proposito del prestamo</legend>
+                
+                <div class="radio">
+                    <input type="radio" id="consumo" placeholder="Consumo" name="proposito" value="consumo" /><label for="consumo">Crédito de consumo</label>
+                    <input type="radio" id="hipotecario" placeholder="hipotecario" name="proposito"><label for="hipotecario"> Credito hipotecario</label>
+                    <input type="radio" id="gasto-cierre" placeholder="Gastos de cierre" name="proposito"><label for="gusto-cierre"> Gasto de cierre</label>
+                    <input type="radio" id="saldo-prima" placeholder="Saldo prima" name="proposito"><label for="saldo-prima">Saldos de prima</label>  
+                </div> 
+                </fieldset>
+                <br>
+
+                
+                <fieldset>
+                <legend>Información del solicitante</legend>
+                    <div class="solicitante">
+                        <div class="campo">
+                            <label>Primer Nombre</label>
+                            <input type="text" id="primerNombre" placeholder="Primer nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Segundo Nombre</label>
+                            <input type="text" id="segundoNombre" placeholder="Segundo nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Primer Apellido</label>
+                            <input type="text" id="primerApellido" placeholder="Primer apellido">
+                        </div>
+                        <div class="campo">
+                            <label>Segundo Apellido</label>
+                            <input type="text" id="segundoApellido" placeholder="Segudo apellido">
+                        </div>
+                        <div class="campo">
+                            <label>Tipo de identificacion</label>
+                            <input type="radio" name="identificacion" id="pasaporte" ><label>Pasaporte</label>
+                            <input type="radio" name="identificacion" id="licenciaConducir"><label>Licencia de conducir</label>
+                            <input type="radio" name="identificacion" id="cedula"><label>Cedula</label>
+                        </div>
+                        <div class="campo">
+                            <label>Numero de identificación</label>
+                            <input type="number" id="cedula" placeholder="cedula" placeholder="000-000000-00000">
+                        </div>
+                        <div class="campo">
+                            <label> No. INSS</label>
+                            <input type="number" id="inss" placeholder="INSS">
+                        </div>
+                        <div class="campo">
+                            <label>Fecha de nacimiento</label>
+                            <input type="date" id="fechaNacimiento" placeholder="Fecha de nacimiento">
+                        </div>
+                        <div class="campo">
+                            <label>Profesión u oficio</label>
+                            <input type="text" id="profesion" placeholder="profesion">
+                        </div>
+                        <div class="campo">
+                            <label>Sexo:</label>
+                            <input type="radio" name="" id="masculino"><label>Masculino</label>
+                            <input type="radio" name="" id="femenino"><label>Femenino</label>
+                        </div>
+                        <div class="campo">
+                            <label>Nacionalidad</label>
+                            <input type="text" id="nacionalidad" placeholder="nacionalidad">
+                        </div>
+                        <div class="campo">
+                            <label>País:</label>
+                            <input type="text" name="" id="pais">
+                        </div>
+                        <div class="campo">
+                            <label>Departamento</label>
+                            <input type="text" name="" id="departamento">
+                        </div>
+                        <div class="campo">
+                            <label>Municipio</label>
+                            <input type="text" name="" id="municipio">
+                        </div>
+                        <div class="campo">
+                            <label> Estado civil:</label>
+                            <input type="radio" id="soltero" placeholder="soltero"><label>Soltero</label>
+                            <input type="radio" id="casado" placeholder="casado"><label>Casado</label> 
+                        </div>
+                        <div class="campo">
+                            <label>No. de depedientes</label>
+                            <input type="number" id="dependientes"  placeholder="# dependientes">
+                        </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input type="email" id="email" placeholder="correo@email.com">
+                        </div>
+                        <div class="campo">
+                            <label>telefono</label>
+                            <input type="tel" id="tel" placeholder="telefono">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono Celular</label>
+                            <input type="tel" id="celular" placeholder="Celular">
+                        </div>
+                        <div class="campo">
+                            <label>Dirección domiciliar</label>
+                            <input type="text" id="direccionDomiciliar" placeholder="Dirección Domiciliaria">
+                        </div>
+                        <div class="campo">
+                            <label>Tiene cuenta bancaria?</label>
+                            <input type="radio" name="cuentab" id="cuentaBancaria"><label>Si</label>
+                            <input type="radio" name="cuentab" id="cuentaBancaria"><label>No</label>
+                        </div>
+                    </div><br>
+
+                </fieldset>
+                <br>
+                
+                <fieldset>
+                    <legend>Información del Conyugue</legend>
+                    <div class="conyugue">
+                        <div class="campo">
+                            <label>Nombre completo</label>
+                            <input type="text" id="nombreConyuge" placeholder="Nombre Completo">
+                        </div>
+                        <div class="campo">
+                            <label>Cédula</label>
+                            <input type="number"  id="cedulaConyugue" placeholder="cedula del Conyugue">
+                        </div>
+                        <div class="campo">
+                            <label>Nacionalidad</label>
+                            <input type="text" id="nacionalidadConyugue"  placeholder="Nacionalidad">
+                        </div>
+                        <div class="campo">
+                            <label>No. INSS</label>
+                            <input type="number"  id="inssConyugue" placeholder="# INSS del conyugue">
+                        </div>
+                        <div class="campo">
+                            <label>Fecha de Nacimiento</label>
+                            <input type="date" name="" id="fechaNacimientoConyugue" placeholder="Fecha de nacimiento">
+                        </div>
+                        <div class="campo">
+                            <label>Sexo</label>
+                            <input type="text" name="" id="sex" placeholder="sexo">
+                        </div>
+                        <div class="campo">
+                            <label>Celular</label>
+                            <input type="tel" name="" id="celConyugue" placeholder="Celular">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono del Convencional</label>
+                            <input type="tel" name="" id="telefonoConyugue" placeholder="Telefono convencional">
+                        </div>
+                        <div class="campo">
+                            <label>Empresa donde labora</label>
+                            <input type="text" name="" id="empresaConyugue" placeholder="Empresa donde labora">
+                        </div>
+                        <div class="campo">
+                            <label>Cargo que desempeña</label>
+                            <input type="text" name="" id="cargoConyugue">
+                        </div>
+                        <div class="campo">
+                            <label>Tiempo de laborar</label>
+                            <input type="text" name="" id="tiempoConyuguelaborar">
+                        </div>
+                        <div class="campo">
+                            <labe>Ingreso mensual</label>
+                            <input type="number" name="" id="ingresoMensualConyugue" placeholder="Ingreso Mensual">
+                        </div>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Información del Fiador</legend>
+                    <div class="fiador">
+                        <div class="campo">
+                            <label>Nombre  completo:</label>
+                            <input type="text" name="" id="nombreFiador" placeholder="Nombre completo">
+                        </div>
+                        <div class="campo">
+                            <label>Cédula</label>
+                            <input type="number" name="" id="cedulaFiador" placeholder="000-000000-00000">
+                        </div>
+                        <div class="campo">
+                            <label>No. INSS</label>
+                            <input type="number" name="" id="inssFiador" placeholder="No. INSS" >
+                        </div>
+                        <div class="campo">
+                            <label>Fecha de nacimiento</label>
+                            <input type='date' name='fechaNacimientoFiador' id='fechanacimientoFiador' placeholder="Fecha Nacimiento"/>
+                        </div>
+                        <div class="campo">
+                            <label>profesión u oficio</label>
+                            <input type="text" name="" id="ocupacionFiador" placeholder="Profesión u oficio">
+                        </div>
+                        <div class="campo">
+                            <label>Nacionalidad</label>
+                            <input type="text" name="" id="nacionalidadFiador" placeholder="Nacionalidad">
+                        </div>
+                        <div class="campo">
+                            <label>Estado civil:</label>
+                            <input type="radio" name="" id="estadoCivilFiadorSoltero" placeholder="estadoCivilFiadorSoltyero">Soltero
+                            <input type="radio" name="" id="estadoCivilFiadorCasado" placeholder="estadoCivilFiadorCasado">Casado
+                        </div>
+                        <div class="campo">
+                            <label>No. de depedientes</label>
+                            <input type="number" name="" id="depedientesFiador" placeholder="No. de dependientes">
+                        </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input type="email" name="" id="correoFiador">
+                        </div>
+                        <div class="campo">
+                            <label >Celular</label>
+                            <input type="tel" name="" id="celFiador">
+                        </div>
+                        <div class="campo">
+                            <label>Télefono</label>
+                            <input type="tel" name="" id="telFiador">
+                        </div>
+                        <div class="campo">
+                            <label>Dirección domiciliar</label>
+                            <input type="text" name="" id="dirFiador">
+                        </div>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Fuente de Ingresos</legend>
+                    <div class="ingresos">
+                        <div class="igresosMensuales ">
+                            <label for="fuente">Fuente de ingreso mensuales:</label>
+                            <input type="checkbox" name="" id="asalariado"><label>Asalariado</label>
+                            <input type="checkbox" name="" id="NegocioPropio"><label>Negocio propio</label>
+                            <input type="checkbox" name="" id="indepediente"><label>Prof. indepediente</label>
+                            <input type="checkbox" name="" id="jubilado"><label>Jubilado</label>
+                            <input type="checkbox" name="" id="otro"><label>Otro</label>
+                            <label class="labelAsalariado">    | Si marco asalariado por favor complete la siguentes casillas.</label><br>
+                        </div>
+                        <div class="campo">
+                            <label>Empresa donde trabaja:</label>
+                            <input type="text" name="" id="empresaCliete">
+                        </div>
+                        <div class="campo">
+                            <label>Dirección de la empresa:</label>
+                            <input type="text" name="" id="dirEmpresaCliente">
+                        </div>
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input type="email" name="" id="correoEmpresaCliente">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono de la empresa:</label>
+                            <input type="number" name="telefon" id="telefonoEmpresa">
+                        </div>
+                        <div class="campo">
+                            <label>Departamento:</label>
+                            <input type="text" name="" id="departammetoAsalariado">
+                        </div>
+                        <div class="campo">
+                            <label>Municipio:</label>
+                            <input type="text" name="" id="municipioAsalariado">
+                        </div>
+                        <div class="campo">
+                            <label>Cargo y area de trabajo:</label>
+                            <input type="text" name="" id="cargoAreCliente">
+                        </div>
+                        <div class="campo">
+                            <label>Jefe inmediato:</label>
+                            <input type="text" name="" id="jefeInmediatoCliente">
+                        </div>
+                        <div class="campo">
+                            <label>Tiempo de laborar:</label>
+                            <input type="text" name="" id="tiempoLaborarCliente">
+                        </div>
+                        <div class="campo">
+                            <label>Sueldo actual:</label>
+                            <input type="number" name="" id="sueldoActualCliente">
+                        </div>
+                        <div class="campo">
+                            <label> Lugar de trabajo anterior:</label>
+                            <input type="text" name="" id="trabajoAnterior">
+                        </div>
+                        <div class="campo1"></div>
+                        
+                        <div class="igresosMensuales">
+                            <label>Tipo de empresa:</label>
+                            <input type="checkbox" name="" id="privadaAsalariado"><label>Privada</label>
+                            <input type="checkbox" name="" id="publicaAsalariado"><label>Publica</label>
+                            <input type="checkbox" name="" id="ongAsalariado"><label>Ong</label>
+                            <input type="checkbox" name="" id="propioAsalariado"><label>Propio</label>
+                            <label class="labelAsalariado">    | Si usted posee negocio propio por favor complete las siguientes casillas</label>
+                        </div>
+                        <div class="campo">
+                            <label>Departamento</label>
+                            <input type="text" name="" id="departamentoIngresospropios">
+                        </div>
+                        <div class="campo">
+                            <label>Municipio</label>
+                            <input type="text" name="" id="municipioIngresospropios">
+                        </div>
+                        <div class="campo1"></div>
+                        <div class="igresosMensuales">
+                            <label>Igresos mensuales equivalentes a:</label>
+                            <input type="checkbox" name="" id=""><label>Menos $300</label>
+                            <input type="checkbox" name="" id=""><label>$301-$500</label>
+                            <input type="checkbox" name="" id=""><label>$501-$2000</label>
+                            <input type="checkbox" name="" id=""><label>$2001-$3000</label>
+                            <input type="checkbox" name="" id=""><label>$3001-$5000</label>
+                            <input type="checkbox" name="" id=""><label>Mayor de $5000</label>
+                        </div>
+                        <div class="campo">
+                            <label>Detalle cual es el origen de sus fondos</label>
+                            <input type="text" name="" id="origenFondo">
+                        </div>
+                        <div class="campo">
+                            <label>Detalle cual es la procedencia de sus fondos</label>
+                            <input type="text" name="" id="procedenciaFondos">
+                        </div>
+                        <div class="campo1"></div>
+
+                       
+                    </div>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Información finaciera</legend>
+                    <div class="datosFinancieros">
+                        <div class="campo">
+                            <label>Activos dolares / Saldo</label><br>
+                            <label>Caja y banco:</label>
+                            <input type="text" name="" id="cajabancoActivos"><br>
+                            <label>Cuentas por cobrar:</label>
+                            <input type="text" name="" id="cuentasporCobraractivos"><br>
+                            <label>Otros activos:</label>
+                            <input type="text" name="" id="otroActivos"><br>
+                            <label>Activos totales:</label>
+                            <input type="text" name="" id="activosTotales">
+                        </div>
+                    </div>
+
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Información General</legend>
+                    <div class="datosGenerales">
+                        <div class="campo">
+                            <label>Es usted el beneficiero final de un credito?</label>
+                            <input type="radio" name="" id="benifieroFinalSi"><label>Si</label>
+                            <input type="radio" name="" id="benifieroFinalNo"><label>No</label>
+                        </div>
+                        <div class="campo">
+                            <label>Sí marco "No" Favor escriba el nombre de la persona beneficiara final del credito:</label>
+                            <input type="text" name="" id="NombreBeneficiaro">
+                        </div>
+                        <div class="campo">
+                            <label>Ha desempeñado o desempeña u cargo público y/o ha sido usted una figura pública de alto nivel en los ultimos 10 años?</label>
+                            <input type="radio" name="" id="cargoPublicasi"><label>Si</label>
+                            <input type="radio" name="" id="cargoPublicano"><label>No</label>
+                        </div>
+                        <div class="textosolo">
+                        <label>Si su respuesta fue "SÍ" por favor complete la siguiente información</label>
+                        </div>
+                        <div class="campo">
+                            <label>Nombre de la identidad:</label>
+                            <input type="text" name="" id="identidadFinaciera">
+                        </div>
+                        <div class="campo">
+                            <label>País:</label>
+                            <input type="text" name="" id="paisIdentidadfinanciera">
+                        </div>
+                        <div class="campo">
+                            <label>Periodo</label>
+                            <input type="text" name="" id="peridoIdentidad">
+                        </div>
+                        <div class="campo">
+                            <label>Cargo</label>
+                            <input type="text" name="" id="cargoIdentidad">
+                        </div>
+                        <div class="igresosMensuales">
+                            <label>¿Es usted familiar(Padre, Madre, Hij@, Herman@, Espos@, Suegr@, Yerno, Nuera, Cuñad@) de ua personaque ha desempeñado un cargo público o figura pública de alto nivel? </label>
+                            <input type="radio" name="" id="familiaCargopublicosi"><label>Si</label>
+                            <input type="radio" name="" id="familiaCargopublicono"><label>No</label>
+                        </div>
+                        <div class="campo">
+                            <label>Nombre del familiar:</label>
+                            <input type="text" name="" id="nombreFamiliar">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Nombre de la identidad</label>
+                            <input type="text" name="" id="nombreDelaidentidad">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Parentesco:</label>
+                            <select name="" id="parentecioSelect">
+                                <option value="padre">Padre</option>
+                                <option value="madre">Madre</option>
+                                <option value="hijo">Hijo</option>
+                                <option value="hija">Hija</option>
+                                <option value="hermano">Hermano</option>
+                                <option value="hermana">Hermana</option>
+                                <option value="esposo">Esposo</option>
+                                <option value="esposa">Esposa</option>
+                                <option value="yerno">yerno</option>
+                                <option value="nuera">Nuera</option>
+                                <option value="cuñado">Cuñado</option>
+                                <option value="cuñada">Cuñada</option>
+                            </select>
+                           
+                        </div>
+                        <div class="campo">
+                            <label>Cargo del Familiar</label>
+                            <input type="text" name="" id="cargoDelFamiliar">
+                        </div>
+                        <div class="campo">
+                            <label>Periodo</label>
+                            <input type="date" name="" id="fechaInicioPeridoFam">
+                        </div>
+                        <div class="campo">
+                            <label>País:</label>
+                            <input type="text" name="" id="pais">
+                             
+                        </div>
+                    </div>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Referencias personales</legend>
+                    <div class="referencias">
+                        <div class="referenciaswidt" ><h4>Referencia 1</h4></div>
+                        <div class="campo">
+                            <label>Nombre completo:</label>
+                            <input type="text" name="nombreCompleto" id="nombreCompletoRef">
+                        </div>
+                        <div class="campo">
+                            <label># de telefono:</label>
+                            <input type="number" name="" id="numeroTelefoo">
+                        </div>
+                        <div class="campo">
+                            <label># de Celular:</label>
+                            <input type="number"  name=""  id="celularRef">
+                        </div>
+                        <div class="campo">
+                            <label>Años de relación:</label>
+                            <input type="number" name="" id="aniosDeRelacion">
+                        </div>
+                        <div class="campo">
+                            <label>Direccion Domiciliar:</label>
+                            <input type="text" name="" id="direccionDomiciliarRef">
+                        </div>
+                        <div class="campo1"></div>
+                        <div  class="referenciaswidt"><h4>Referencia2</h4></div>
+                        <div class="campo">
+                            <label>Nombre completo:</label>
+                            <input type="text" name="nombreCompleto" id="nombreCompletoRef">
+                        </div>
+                        <div class="campo">
+                            <label># de telefono:</label>
+                            <input type="number" name="" id="numeroTelefoo">
+                        </div>
+                        <div class="campo">
+                            <label># de Celular:</label>
+                            <input type="number"  name=""  id="celularRef">
+                        </div>
+                        <div class="campo">
+                            <label>Años de relación:</label>
+                            <input type="number" name="" id="aniosDeRelacion">
+                        </div>
+                        <div class="campo">
+                            <label>Direccion Domiciliar:</label>
+                            <input type="text" name="" id="direccionDomiciliarRef">
+                        </div>
+                        <div class="campo1"></div>
+
+
+
+                    </div>
+
+                </fieldset>
+
+
+
+
+                
+
+
+                
+
+
+            
+           
+        </div>
+        </form>
+   
+        <script src="" async defer></script>
+    </body>
+</html>
