@@ -43,205 +43,207 @@
                 <fieldset>
                 <legend>Información del solicitante</legend>
                     <div class="solicitante">
-                        <div class="campo">
-                            <label>Primer Nombre</label>
-                            <input type="text" id="primerNombre" placeholder="Primer nombre">
+                        <div class="campo1"><fieldset>
+                            <legend>Primer Nombre</legend>
+                            <input type="text" id="primerNombre" placeholder="Carlos" name="primernombre"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Segundo Nombre</label>
-                            <input type="text" id="segundoNombre" placeholder="Segundo nombre">
+                        <div class="campo1"><fieldset>
+                            <legend>Segundo Nombre</legend>
+                            <input type="text" id="segundoNombre" placeholder="José" name="segundoNombre"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Primer Apellido</label>
-                            <input type="text" id="primerApellido" placeholder="Primer apellido">
+                        <div class="campo1"><fieldset>
+                            <legend>Primer Apellido</legend>
+                            <input type="text" id="primerApellido" placeholder="Lopéz" name="primerApellido"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Segundo Apellido</label>
-                            <input type="text" id="segundoApellido" placeholder="Segudo apellido">
+                        <div class="campo1"><fieldset>
+                            <legend>Segundo Apellido</legend>
+                            <input type="text" id="segundoApellido" placeholder="Mejía" name="segundoApellido"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Tipo de identificacion</label>
+                        <div class="campo1"><fieldset>
+                            <legend>Tipo de identificación</legend>
                             <input type="radio" name="identificacion" id="pasaporte" ><label>Pasaporte</label>
                             <input type="radio" name="identificacion" id="licenciaConducir"><label>Licencia de conducir</label>
-                            <input type="radio" name="identificacion" id="cedula"><label>Cedula</label>
+                            <input type="radio" name="identificacion" id="cedula"><label>Cedula</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Numero de identificación</label>
-                            <input type="number" id="cedula" placeholder="cedula" placeholder="000-000000-00000">
+                        <div class="campo1"><fieldset>
+                            <legend>No. de identificación</legend>
+                            <input type="number" id="cedulaSolicitante"  placeholder="000-000000-00000" name="cedulaSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label> No. INSS</label>
-                            <input type="number" id="inss" placeholder="INSS">
+                        <div class="campo1"><fieldset>
+                            <legend> No. INSS</legend>
+                            <input type="number" id="inssSolicitante" placeholder="0000000-0" name="inssSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Fecha de nacimiento</label>
-                            <input type="date" id="fechaNacimiento" placeholder="Fecha de nacimiento">
+                        <div class="campo1"><fieldset>
+                            <legend>Fecha de nacimiento</legend>
+                            <input type="date" id="fechaNacimientoSolicitante" placeholder="Fecha de nacimiento" name="fechaNacimientoSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Profesión u oficio</label>
-                            <input type="text" id="profesion" placeholder="profesion">
+                        <div class="campo1"><fieldset>
+                            <legend>Profesión u oficio</legend>
+                            <input type="text" id="profesionSolicitante" placeholder="Ingeniero" name="profesionSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Sexo:</label>
-                            <input type="radio" name="" id="masculino"><label>Masculino</label>
-                            <input type="radio" name="" id="femenino"><label>Femenino</label>
+                        <div class="campo1"><fieldset>
+                            <legend>Sexo:</legend>
+                            <input type="radio" name="sexo" id="masculino" value="masculino" ><label for="masculino">Masculino</label>
+                            <input type="radio" name="sexo" id="femenino" value="femenino"><label for="femenino">Femenino</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Nacionalidad</label>
-                            <input type="text" id="nacionalidad" placeholder="nacionalidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Nacionalidad</legend>
+                            <input type="text" id="nacionalidadSolicitante" placeholder="Nicaraguense" name="nacionalidadSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>País:</label>
-                            <input type="text" name="" id="pais">
+                        <div class="campo1"><fieldset>
+                            <legend>País:</legend>
+                            <input type="text" id="paisSolicitante" placeholder="Nicaragua" name="paisSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Departamento</label>
-                            <input type="text" name="" id="departamento">
+                        <div class="campo1"><fieldset>
+                            <legend>Departamento</legend>
+                            <input type="text"  id="departamentoSolicitante" placeholder="Masaya" name="departamentoSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Municipio</label>
-                            <input type="text" name="" id="municipio">
+                        <div class="campo1"><fieldset>
+                            <legend>Municipio</legend>
+                            <input type="text"  id="municipioSolicitante" placeholder="Nindirí" name="municipioSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label> Estado civil:</label>
-                            <input type="radio" id="soltero" placeholder="soltero"><label>Soltero</label>
-                            <input type="radio" id="casado" placeholder="casado"><label>Casado</label> 
+                        <div class="campo1"><fieldset>
+                            <legend> Estado civil:</legend>
+                            <input type="radio" id="soltero" name="estadoCivil"><label>Soltero</label>
+                            <input type="radio" id="casado" name="estadoCivil"><label>Casado</label> </fieldset>
                         </div>
-                        <div class="campo">
-                            <label>No. de depedientes</label>
-                            <input type="number" id="dependientes"  placeholder="# dependientes">
+                        <div class="campo1"><fieldset>
+                            <legend>No. de depedientes</legend>
+                            <input type="number" id="numeroDependientesolicitante" placeholder="3" name="numeroDependientesolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Correo</label>
-                            <input type="email" id="email" placeholder="correo@email.com">
+                        <div class="campo1"><fieldset>
+                            <legend>Correo</legend>
+                            <input type="email" id="correoSolicitante" placeholder="correo@email.com" name="correoSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>telefono</label>
-                            <input type="tel" id="tel" placeholder="telefono">
+                        <div class="campo1"><fieldset>
+                            <legend>No. de teléfono</legend>
+                            <input type="tel" id="telSolicitante" placeholder="000 00000000" name="telSolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Telefono Celular</label>
-                            <input type="tel" id="celular" placeholder="Celular">
+                        <div class="campo1"><fieldset>
+                            <legend>No. de celular</legend>
+                            <input type="tel" id="celSolicitante" placeholder="000 00000000" name="celSolicitante" ></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Dirección domiciliar</label>
-                            <input type="text" id="direccionDomiciliar" placeholder="Dirección Domiciliaria">
+                        <div class="campo1"><fieldset>
+                            <legend>Dirección domiciliar</legend>
+                            <input type="text" id="direccionDomiciliarsolicitante" placeholder="Dirección Domiciliaria" name="direccionDomiciliarsolicitante"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Tiene cuenta bancaria?</label>
-                            <input type="radio" name="cuentab" id="cuentaBancaria"><label>Si</label>
-                            <input type="radio" name="cuentab" id="cuentaBancaria"><label>No</label>
+                        <div class="campo1"><fieldset>
+                            <legend>Tiene cuenta bancaria?</legend>
+                            <input type="radio" name="cuentab" id="cuentaBancariasolicitanteSi" ><label>Si</label>
+                            <input type="radio" name="cuentab" id="cuentaBancariasolicitanteNo"><label>No</label></fieldset>
                         </div>
-                    </div><br>
+                    </div>
 
                 </fieldset>
                 <br>
                 
                 <fieldset>
-                    <legend>Información del Conyugue</legend>
+                    <legend>Información del conyugue</legend>
                     <div class="conyugue">
-                        <div class="campo">
-                            <label>Nombre completo</label>
-                            <input type="text" id="nombreConyuge" placeholder="Nombre Completo">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre completo</legend>
+                            <input type="text" id="nombreConyuge" placeholder="Nombre Completo" name="NombreConyugue"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Cédula</label>
-                            <input type="number"  id="cedulaConyugue" placeholder="cedula del Conyugue">
+                        <div class="campo1"><fieldset>
+                            <legend>Cédula</legend>
+                            <input type="number"  id="cedulaConyugue" placeholder="cedula del Conyugue" name="cedulaConyugue"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Nacionalidad</label>
-                            <input type="text" id="nacionalidadConyugue"  placeholder="Nacionalidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Nacionalidad</legend>
+                            <input type="text" id="nacionalidadConyugue"  placeholder="Nacionalidad" name="nacionalidadConyugue"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>No. INSS</label>
-                            <input type="number"  id="inssConyugue" placeholder="# INSS del conyugue">
+                        <div class="campo1"><fieldset>
+                            <legend>No. INSS</legend>
+                            <input type="number"  id="inssConyugue" placeholder="# INSS del conyugue" name="inssConyugue"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Fecha de Nacimiento</label>
-                            <input type="date" name="" id="fechaNacimientoConyugue" placeholder="Fecha de nacimiento">
+                        <div class="campo1"><fieldset>
+                            <legend>Fecha de Nacimiento</legend>
+                            <input type="date" name="fechaNacimientoConyugue" id="fechaNacimientoConyugue" placeholder="Fecha de nacimiento"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Sexo</label>
-                            <input type="text" name="" id="sex" placeholder="sexo">
+                        <div class="campo1"><fieldset>
+                            <legend>Sexo</legend>
+                            <input type="radio" name="sexoConyugue" id="sexMasculinoconyugue"><label>Masculino</label>
+                            <input type="radio" name="sexoConyugue" id="sexoFemeninoconyugue"><label>Femenino</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Celular</label>
-                            <input type="tel" name="" id="celConyugue" placeholder="Celular">
+                        <div class="campo1"><fieldset>
+                            <legend>No. Celular</legend>
+                            <input type="tel" name="celConyugue" id="celConyugue" placeholder="000 00000000"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Telefono del Convencional</label>
-                            <input type="tel" name="" id="telefonoConyugue" placeholder="Telefono convencional">
+                        <div class="campo1"><fieldset>
+                            <legend>No. Teléfono</legend>
+                            <input type="tel" name="telefonoConyugue" id="telefonoConyugue" placeholder="Telefono convencional"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Empresa donde labora</label>
-                            <input type="text" name="" id="empresaConyugue" placeholder="Empresa donde labora">
+                        <div class="campo1"><fieldset>
+                            <legend>Empresa donde labora</legend>
+                            <input type="text" name="empresaConyugue" id="empresaConyugue" placeholder="Nombre de empresa"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Cargo que desempeña</label>
-                            <input type="text" name="" id="cargoConyugue">
+                        <div class="campo1"><fieldset>
+                            <legend>Cargo que desempeña</legend>
+                            <input type="text" name="cargoEmresaconyugue" id="cargoEmpresaconyugue" placeholder="Cargo que desempeña"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Tiempo de laborar</label>
-                            <input type="text" name="" id="tiempoConyuguelaborar">
+                        <div class="campo1"><fieldset>
+                            <legend>Tiempo de laborar</legend>
+                            <input type="text" name="tiempoConyuguelaborar" id="tiempoConyuguelaborar" placeholder="3 años"></fieldset>
                         </div>
-                        <div class="campo">
-                            <labe>Ingreso mensual</label>
-                            <input type="number" name="" id="ingresoMensualConyugue" placeholder="Ingreso Mensual">
+                        <div class="campo1"><fieldset>
+                            <legend>Ingreso mensual</legend>
+                            <input type="number" name="ingresoMesconyugue" id="ingresoMesconyugue" placeholder="Ingreso Mensual"></fieldset>
                         </div>
                     </div>
-                </fieldset>
-                <br>
+                </fieldset><br>
+                
                 <fieldset>
-                    <legend>Información del Fiador</legend>
+                    <legend>Información del fiador</legend>
                     <div class="fiador">
-                        <div class="campo">
-                            <label>Nombre  completo:</label>
-                            <input type="text" name="" id="nombreFiador" placeholder="Nombre completo">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre completo:</legend>
+                            <input type="text" name="nombreFiador" id="nombreFiador" placeholder="Juan Pérez"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Cédula</label>
-                            <input type="number" name="" id="cedulaFiador" placeholder="000-000000-00000">
+                        <div class="campo1"><fieldset>
+                            <legend>Cédula</legend>
+                            <input type="number" name="celulaFiador" id="cedulaFiador" placeholder="000-000000-00000"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>No. INSS</label>
-                            <input type="number" name="" id="inssFiador" placeholder="No. INSS" >
+                        <div class="campo1"><fieldset>
+                            <legend>No. INSS</legend>
+                            <input type="number" name="noInssfiador" id="noInssfiador" placeholder="No. INSS" ></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Fecha de nacimiento</label>
-                            <input type='date' name='fechaNacimientoFiador' id='fechanacimientoFiador' placeholder="Fecha Nacimiento"/>
+                        <div class="campo1"><fieldset>
+                            <legend>Fecha de nacimiento</legend>
+                            <input type='date' name='fechaNacimientoFiador' id='fechanacimientoFiador' placeholder="Fecha Nacimiento"/></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>profesión u oficio</label>
-                            <input type="text" name="" id="ocupacionFiador" placeholder="Profesión u oficio">
+                        <div class="campo1"><fieldset>
+                            <legend>Profesión u oficio</legend>
+                            <input type="text" name="profesionFiador" id="profesionFiador" placeholder="Arquitecto"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Nacionalidad</label>
-                            <input type="text" name="" id="nacionalidadFiador" placeholder="Nacionalidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Nacionalidad</legend>
+                            <input type="text" name="nacionalidadFiador" id="nacionalidadFiador" placeholder="Nicaraguense"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Estado civil:</label>
-                            <input type="radio" name="" id="estadoCivilFiadorSoltero" placeholder="estadoCivilFiadorSoltyero">Soltero
-                            <input type="radio" name="" id="estadoCivilFiadorCasado" placeholder="estadoCivilFiadorCasado">Casado
+                        <div class="campo1"><fieldset>
+                            <legend>Estado civil:</legend>
+                            <input type="radio" name="estadoCivilFiador" id="estadoCivilFiadorSoltero"><label>Soltero</label>
+                            <input type="radio" name="estadoCivilFiador" id="estadoCivilFiadorCasado"><label>Casado</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>No. de depedientes</label>
-                            <input type="number" name="" id="depedientesFiador" placeholder="No. de dependientes">
+                        <div class="campo1"><fieldset>
+                            <legend>No. de depedientes</legend>
+                            <input type="number" name="depedientesFiador" id="depedientesFiador" placeholder="4"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Correo</label>
-                            <input type="email" name="" id="correoFiador">
+                        <div class="campo1"><fieldset>
+                            <legend>Correo:</legend>
+                            <input type="email" name="correoFiador" id="correoFiador" placeholder="fiador@mail.com"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label >Celular</label>
-                            <input type="tel" name="" id="celFiador">
+                        <div class="campo1"><fieldset>
+                            <legend>Celular</legend>
+                            <input type="tel" name="celFiador" id="celFiador" placeholder="000 00000000"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Télefono</label>
-                            <input type="tel" name="" id="telFiador">
+                        <div class="campo1"><fieldset>
+                            <legend>Télefono</legend>
+                            <input type="tel" name="telFiador" id="telFiador" placeholder="000 00000000"></fieldset>
+                            
                         </div>
-                        <div class="campo">
-                            <label>Dirección domiciliar</label>
-                            <input type="text" name="" id="dirFiador">
+                        <div class="campo1"><fieldset>
+                            <legend>Dirección domiciliar</legend>
+                            <input type="text" name="dirFiador" id="dirFiador" placeholder="Barrio Santa Rosa"></fieldset>
                         </div>
                     </div>
                 </fieldset>
@@ -249,94 +251,94 @@
                 <fieldset>
                     <legend>Fuente de Ingresos</legend>
                     <div class="ingresos">
-                        <div class="igresosMensuales ">
-                            <label for="fuente">Fuente de ingreso mensuales:</label>
-                            <input type="checkbox" name="" id="asalariado"><label>Asalariado</label>
-                            <input type="checkbox" name="" id="NegocioPropio"><label>Negocio propio</label>
-                            <input type="checkbox" name="" id="indepediente"><label>Prof. indepediente</label>
-                            <input type="checkbox" name="" id="jubilado"><label>Jubilado</label>
-                            <input type="checkbox" name="" id="otro"><label>Otro</label>
-                            <label class="labelAsalariado">    | Si marco asalariado por favor complete la siguentes casillas.</label><br>
+                        <div class="igresosMensuales "><fieldset>
+                            <legend>Fuente de ingreso mensuales:</legend>
+                            <input type="checkbox" name="asalariado" id="asalariado"><label>Asalariado</label>
+                            <input type="checkbox" name="negocioPropio" id="negocioPropio"><label>Negocio propio</label>
+                            <input type="checkbox" name="indepedienteIngresos" id="indepedienteIngresos"><label>Prof. indepediente</label>
+                            <input type="checkbox" name="jubiladoIngresos" id="jubiladoIngresos"><label>Jubilado</label>
+                            <input type="checkbox" name="otroIngreso" id="otroIngreso"><label>Otro</label>
+                            <label class="labelAsalariado">    | Si marco asalariado por favor complete la siguentes casillas.</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Empresa donde trabaja:</label>
-                            <input type="text" name="" id="empresaCliete">
+                        <div class="campo1"><fieldset>
+                            <legend>Empresa donde trabaja:</legend>
+                            <input type="text" name="ingresoSolicitanteempresaLabora" id="ingresoSolicitanteempresaLabora" placeholder="NILAC"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Dirección de la empresa:</label>
-                            <input type="text" name="" id="dirEmpresaCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Dirección de la empresa:</legend>
+                            <input type="text" name="ingresoSolicitanteempresadireccion" id="ingresoSolicitanteempresadireccion" placeholder="Carretera a masaya km.18"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Correo:</label>
-                            <input type="email" name="" id="correoEmpresaCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Correo:</legend>
+                            <input type="email" name="correoEmpresasolicitante" id="correoEmpresasolicitante" placeholder="fulano@mail.com"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Telefono de la empresa:</label>
-                            <input type="number" name="telefon" id="telefonoEmpresa">
+                        <div class="campo1"><fieldset>  
+                            <legend>Telefono de la empresa:</legend>
+                            <input type="number" name="telefonEmpresasolicitante" id="telefonEmpresasolicitante" placeholder="000 00000000"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Departamento:</label>
-                            <input type="text" name="" id="departammetoAsalariado">
+                        <div class="campo1"><fieldset>
+                            <legend>Departamento:</legend>
+                            <input type="text" name="empresaDepartementosolictante" id="empresaDepartementosolictante" placeholder="contabilidad"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Municipio:</label>
-                            <input type="text" name="" id="municipioAsalariado">
+                        <div class="campo1"><fieldset>
+                            <legend>Municipio:</legend>
+                            <input type="text" name="municipioAsalariado" id="municipioAsalariado" placeholder="Nindirí"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Cargo y area de trabajo:</label>
-                            <input type="text" name="" id="cargoAreCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Cargo y area de trabajo:</legend>
+                            <input type="text" name="cargoAredetrabajoIngresossolicitante" id="cargoAredetrabajoIngresossolicitante" placeholder="Responsable Nomina RRHH"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Jefe inmediato:</label>
-                            <input type="text" name="" id="jefeInmediatoCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Jefe inmediato:</legend>
+                            <input type="text" name="jefeInmediatosolicitante" id="jefeInmediatosolicitante" placeholder="Carlos Flores"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Tiempo de laborar:</label>
-                            <input type="text" name="" id="tiempoLaborarCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Tiempo de laborar:</legend>
+                            <input type="text" name="tiempoLaborarsolicitante" id="tiempoLaborarsolicitante" placeholder="3 años"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Sueldo actual:</label>
-                            <input type="number" name="" id="sueldoActualCliente">
+                        <div class="campo1"><fieldset>
+                            <legend>Sueldo actual:</legend>
+                            <input type="number" name="sueldoActualsolicitante" id="sueldoActualsolicitante" placeholder="37600.00"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label> Lugar de trabajo anterior:</label>
-                            <input type="text" name="" id="trabajoAnterior">
+                        <div class="campo1"><fieldset>
+                            <legend> Lugar de trabajo anterior:</legend>
+                            <input type="text" name="trabajoAnteriorsolicitante" id="trabajoAnteriorsolicitante" placeholder="New Century Company"></fieldset>
                         </div>
                         <div class="campo1"></div>
                         
-                        <div class="igresosMensuales">
-                            <label>Tipo de empresa:</label>
+                        <div class="igresosMensuales"><fieldset>
+                            <legend>Tipo de empresa:</legend>
                             <input type="checkbox" name="" id="privadaAsalariado"><label>Privada</label>
                             <input type="checkbox" name="" id="publicaAsalariado"><label>Publica</label>
                             <input type="checkbox" name="" id="ongAsalariado"><label>Ong</label>
                             <input type="checkbox" name="" id="propioAsalariado"><label>Propio</label>
-                            <label class="labelAsalariado">    | Si usted posee negocio propio por favor complete las siguientes casillas</label>
+                            <label class="labelAsalariado">    | Si usted posee negocio propio por favor complete las siguientes casillas</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Departamento</label>
-                            <input type="text" name="" id="departamentoIngresospropios">
+                        <div class="campo1"><fieldset>
+                            <legend>Departamento</legend>
+                            <input type="text" name="departamentoIngresospropios" id="departamentoIngresospropios" placeholder="Nindirí"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Municipio</label>
-                            <input type="text" name="" id="municipioIngresospropios">
+                        <div class="campo1"><fieldset>
+                            <legend>Municipio</legend>
+                            <input type="text" name="" id="municipioIngresospropios"></fieldset>
                         </div>
                         <div class="campo1"></div>
-                        <div class="igresosMensuales">
-                            <label>Igresos mensuales equivalentes a:</label>
+                        <div class="igresosMensuales"><fieldset>
+                            <legend>Igresos mensuales equivalentes a:</legend>
                             <input type="checkbox" name="" id=""><label>Menos $300</label>
                             <input type="checkbox" name="" id=""><label>$301-$500</label>
                             <input type="checkbox" name="" id=""><label>$501-$2000</label>
                             <input type="checkbox" name="" id=""><label>$2001-$3000</label>
                             <input type="checkbox" name="" id=""><label>$3001-$5000</label>
-                            <input type="checkbox" name="" id=""><label>Mayor de $5000</label>
+                            <input type="checkbox" name="" id=""><label>Mayor de $5000</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Detalle cual es el origen de sus fondos</label>
-                            <input type="text" name="" id="origenFondo">
+                        <div class="campo3"><fieldset>
+                            <legend>Detalle cual es el origen de sus fondos</legend>
+                            <textarea name="origenFondosSolicitante" id="origenFondosSolicitante" cols="30" rows="10"></textarea></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Detalle cual es la procedencia de sus fondos</label>
-                            <input type="text" name="" id="procedenciaFondos">
+                        <div class="campo3"><fieldset>
+                            <legend>Detalle cual es la procedencia de sus fondos</legend>
+                            <textarea name="procedenciaFondosSolicitante" id="procedenciaFondosSolicitante" cols="30" rows="10"></textarea></fieldset>
                         </div>
                         <div class="campo1"></div>
 
@@ -346,16 +348,57 @@
                 <fieldset>
                     <legend>Información finaciera</legend>
                     <div class="datosFinancieros">
-                        <div class="campo">
-                            <label>Activos dolares / Saldo</label><br>
-                            <label>Caja y banco:</label>
-                            <input type="text" name="" id="cajabancoActivos"><br>
-                            <label>Cuentas por cobrar:</label>
-                            <input type="text" name="" id="cuentasporCobraractivos"><br>
-                            <label>Otros activos:</label>
-                            <input type="text" name="" id="otroActivos"><br>
-                            <label>Activos totales:</label>
-                            <input type="text" name="" id="activosTotales">
+                        <div class="campo4"><fieldset>
+                            <legend>Activos (Dolares) / Saldo</legend>
+                            <legend>Caja y banco:</legend>
+                            <input type="text" name="cajabancoActivos" id="cajabancoActivos"><br>
+                            <legend>Cuentas por cobrar:</legend>
+                            <input type="text" name="cuentasporCobraractivos" id="cuentasporCobraractivos"><br>
+                            <legend>Otros activos:</legend>
+                            <input type="text" name="otroActivos" id="otroActivos"><br>
+                            <legend>Activos totales:</legend>
+                            <input type="text" name="activosTotales" id="activosTotales">
+                        </div>
+                        <div class="campo4"><fieldset>
+                            <legend>Pasivo (Dolares) / Saldo</legend>
+                            <legend>Deudas a otros bancos</legend>
+                            <input type="text" name="pasivosTotales" id="pasivosTotales"><br>
+                            <legend>Cuentas por pagar:</legend>
+                            <input type="text" name="cuentasporPagar" id="cuentasporPagar"><br>
+                            <legend>Otros pasivos:</legend>
+                            <input type="text" name="otroPasivos" id="otroPasivos"><br>
+                            <legend>Pasivos totales:</legend>
+                            <input type="text" name="Pasivos" id="pasivosTotales">
+                        </div>
+                        <div class="campo4"><fieldset>
+                            <legend>Mensual</legend>
+                            <div class="ingresos-campo1">
+                                <div>
+                                    <legend>Ingresos US$:</legend>
+                                    <input type="text" name="ingresosDolares" id="igresosDolares"><br>
+                                    <legend>Salario:</legend>
+                                    <input type="text" name="salario" id="salario"><br>
+                                    <legend>Otros:</legend>
+                                    <input type="text" name="otrosIngresos" id="otrosIngresos"><br>
+                                    <legend>Total:</legend>
+                                    <input type="text" name="totalesIngresos" id="totalesIngresos">
+                                </div>
+                                <div>
+                                    <legend>Egresos US$:</legend>
+                                    <input type="text" name="egresos" id="egresos"><br>
+                                    <legend>Renta/Vivienda:</legend>
+                                    <input type="text" name="rentaVivienda id="rentaVivienda"><br>
+                                    <legend>Deudas/Pasivos</legend>
+                                    <input type="text" name="deudasPasivos" id="deudasPasivos"><br>
+                                    <legend>Servicios Públicos:</legend>
+                                    <input type="text" name="serviciosPublicos" id="serviciosPublicos">
+                                    <legend>Otros:</legend>
+                                    <input type="text" name="otroEngresos" id="otrosEgresos">
+                                    <legend>Totales:</legend>
+                                    <input type="text" name="totalesEgresos" id="totales Egresos">
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
@@ -364,56 +407,61 @@
                 <fieldset>
                     <legend>Información General</legend>
                     <div class="datosGenerales">
-                        <div class="campo">
-                            <label>Es usted el beneficiero final de un credito?</label>
-                            <input type="radio" name="" id="benifieroFinalSi"><label>Si</label>
-                            <input type="radio" name="" id="benifieroFinalNo"><label>No</label>
+                        <div class="campo1"><fieldset>
+                            <legend>Es usted el beneficiero final de un credito?</legend>
+                            <input type="radio" name="infoGralsolicitante" id="benifieroFinalSi"><label>Si</label>
+                            <input type="radio" name="infoGralsolicitante" id="benifieroFinalNo"><label>No,</label>
+                            <label>Sí marco "No" continuar con el registro </label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Sí marco "No" Favor escriba el nombre de la persona beneficiara final del credito:</label>
-                            <input type="text" name="" id="NombreBeneficiaro">
+                        <div class="campo1"><fieldset>
+                            <legend>Beneficiar@ final del credito:</legend>
+                            <input type="text" name="nombreBeneficiarioCredito" id="nombreBeneficiarioCredito"></fieldset>
                         </div>
-                        <div class="campo">
+                        <div class="campo1"><fieldset>
+                            <legend>Cargo/Figura Publica</legend>
                             <label>Ha desempeñado o desempeña u cargo público y/o ha sido usted una figura pública de alto nivel en los ultimos 10 años?</label>
-                            <input type="radio" name="" id="cargoPublicasi"><label>Si</label>
-                            <input type="radio" name="" id="cargoPublicano"><label>No</label>
+                            <input type="radio" name="cargoFigurapublica" id="cargoPublicasi"><label>Si</label>
+                            <input type="radio" name="cargoFigurapublica" id="cargoPublicano"><label>No</label></fieldset>
                         </div>
                         <div class="textosolo">
                         <label>Si su respuesta fue "SÍ" por favor complete la siguiente información</label>
                         </div>
-                        <div class="campo">
-                            <label>Nombre de la identidad:</label>
-                            <input type="text" name="" id="identidadFinaciera">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre de la identidad:</legend>
+                            <input type="text" name="Nomreidentidadfinanciera" id="Nomreidentidadfinanciera"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>País:</label>
-                            <input type="text" name="" id="paisIdentidadfinanciera">
+                        <div class="campo1"><fieldset>
+                            <legend>País:</legend>
+                            <input type="text" name="paisIdentidadfinanciera" id="paisIdentidadfinanciera"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Periodo</label>
-                            <input type="text" name="" id="peridoIdentidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Periodo</legend>
+                            <input type="text" name="periodoIdentidad" id="peridoIdentidad"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Cargo</label>
-                            <input type="text" name="" id="cargoIdentidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Cargo</legend>
+                            <input type="text" name="cargoIdentidad" id="cargoIdentidad"></fieldset>
                         </div>
-                        <div class="igresosMensuales">
-                            <label>¿Es usted familiar(Padre, Madre, Hij@, Herman@, Espos@, Suegr@, Yerno, Nuera, Cuñad@) de ua personaque ha desempeñado un cargo público o figura pública de alto nivel? </label>
-                            <input type="radio" name="" id="familiaCargopublicosi"><label>Si</label>
-                            <input type="radio" name="" id="familiaCargopublicono"><label>No</label>
+                        <div class="campo1"></div>
+                        <div class="campo1"></div>
+
+                        <div class="igresosMensuales"><fieldset>
+                            <legend>¿Es usted familiar</legend><label>(Padre, Madre, Hij@, Herman@, Espos@, Suegr@, Yerno, Nuera, Cuñad@) de ua personaque ha desempeñado un cargo público o figura pública de alto nivel? </label>
+                            <input type="radio" name="familiaCargopublico" id="familiaCargopublicosi"><label>Si</label>
+                            <input type="radio" name="familiaCargopublico" id="familiaCargopublicono"><label>No</label></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Nombre del familiar:</label>
-                            <input type="text" name="" id="nombreFamiliar">
-                        </div>
-                        
-                        <div class="campo">
-                            <label>Nombre de la identidad</label>
-                            <input type="text" name="" id="nombreDelaidentidad">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre del familiar:</legend>
+                            <input type="text" name="" id="nombreFamiliar"></fieldset>
                         </div>
                         
-                        <div class="campo">
-                            <label>Parentesco:</label>
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre de la identidad</legend>
+                            <input type="text" name="nombreDelaidentidad" id="nombreDelaidentidad"></fieldset>
+                        </div>
+                        
+                        <div class="campo1"><fieldset>
+                            <legend>Parentesco:</legend>
                             <select name="" id="parentecioSelect">
                                 <option value="padre">Padre</option>
                                 <option value="madre">Madre</option>
@@ -427,20 +475,31 @@
                                 <option value="nuera">Nuera</option>
                                 <option value="cuñado">Cuñado</option>
                                 <option value="cuñada">Cuñada</option>
-                            </select>
+                            </select></fieldset>
                            
                         </div>
-                        <div class="campo">
-                            <label>Cargo del Familiar</label>
-                            <input type="text" name="" id="cargoDelFamiliar">
+                        <div class="campo1"><fieldset>
+                            <legend>Cargo del Familiar</legend>
+                            <input type="text" name="cargpDelFamiliar" id="cargoDelFamiliar"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Periodo</label>
-                            <input type="date" name="" id="fechaInicioPeridoFam">
+                        <div class="campo1"><fieldset>
+
+                            <legend>Periodo</legend>
+                            
+                            <div class="periodo">
+                                <div>
+                                    <legend>Desde:</legend>
+                                    <input type="date" name="fechaInicioPeridoFam" id="fechaInicioPeridoFam">
+                                </div>
+                                <div>
+                                    <legend>Hasta:</legend>
+                                    <input type="date" name="fechafinalPeridoFam" id="fechafinalPeridoFam">
+                                </div>
+                            </div>
                         </div>
-                        <div class="campo">
-                            <label>País:</label>
-                            <input type="text" name="" id="pais">
+                        <div class="campo1"><fieldset>
+                            <legend>País:</legend>
+                            <input type="text" name="paisFamiliar" id="paisFamiliar"></fieldset>
                              
                         </div>
                     </div>
@@ -449,47 +508,47 @@
                     <legend>Referencias personales</legend>
                     <div class="referencias">
                         <div class="referenciaswidt" ><h4>Referencia 1</h4></div>
-                        <div class="campo">
-                            <label>Nombre completo:</label>
-                            <input type="text" name="nombreCompleto" id="nombreCompletoRef">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre completo:</legend>
+                            <input type="text" name="nombreCompletoRef" id="nombreCompletoRef"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label># de telefono:</label>
-                            <input type="number" name="" id="numeroTelefoo">
+                        <div class="campo1"><fieldset>
+                            <legend># de telefono:</legend>
+                            <input type="number" name="numeroTelefonoRefencia1" id="numeroTelefonoRefencia1"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label># de Celular:</label>
-                            <input type="number"  name=""  id="celularRef">
+                        <div class="campo1"><fieldset>
+                            <legend># de Celular:</legend>
+                            <input type="number"  name="numeroCelularReferencia1"  id="numeroCelularReferencia1"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Años de relación:</label>
-                            <input type="number" name="" id="aniosDeRelacion">
+                        <div class="campo1"><fieldset>
+                            <legend>Años de relación:</legend>
+                            <input type="number" name="anosdeRelacionreferencia1" id="anosdeRelacionreferencia1"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Direccion Domiciliar:</label>
-                            <input type="text" name="" id="direccionDomiciliarRef">
+                        <div class="campo1"><fieldset>
+                            <legend>Direccion Domiciliar:</legend>
+                            <input type="text" name="direccionDomiciliarReferencia1" id="direccionDomiciliarReferencia1"></fieldset>
                         </div>
                         <div class="campo1"></div>
                         <div  class="referenciaswidt"><h4>Referencia2</h4></div>
-                        <div class="campo">
-                            <label>Nombre completo:</label>
-                            <input type="text" name="nombreCompleto" id="nombreCompletoRef">
+                        <div class="campo1"><fieldset>
+                            <legend>Nombre completo:</legend>
+                            <input type="text" name="nombreCompletorefrencia2" id="nombreCompletorefrencia2"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label># de telefono:</label>
-                            <input type="number" name="" id="numeroTelefoo">
+                        <div class="campo1"><fieldset>
+                            <legend># de telefono:</legend>
+                            <input type="number" name="numerodeTelefonoReferencia2" id="numerodeTelefonoReferencia2"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label># de Celular:</label>
-                            <input type="number"  name=""  id="celularRef">
+                        <div class="campo1"><fieldset>
+                            <legend># de Celular:</legend>
+                            <input type="number"  name="celularReferencia2"  id="celularReferencia2"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Años de relación:</label>
-                            <input type="number" name="" id="aniosDeRelacion">
+                        <div class="campo1"><fieldset>
+                            <legend>Años de relación:</legend>
+                            <input type="number" name="anosdeRelacionreferencia2" id="anosdeRelacionreferencia2"></fieldset>
                         </div>
-                        <div class="campo">
-                            <label>Direccion Domiciliar:</label>
-                            <input type="text" name="" id="direccionDomiciliarRef">
+                        <div class="campo1"><fieldset>
+                            <legend>Direccion Domiciliar:</legend>
+                            <input type="text" name="direccionDomiciliarReferencia2" id="direccionDomiciliarReferencia2"></fieldset>
                         </div>
                         <div class="campo1"></div>
 

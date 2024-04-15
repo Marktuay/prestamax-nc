@@ -80,6 +80,56 @@ label{
 
 }
 
+.campo3{
+    margin: 5px 5px 30px ;
+    padding: 5px 5px 5px 5px;
+    border: #fff 1px solid;
+    text-align: left;
+    background-color: #fff;
+    width: 45%;
+    height: auto;
+    font-size: medium;
+}
+
+.campo4{
+    width: 33%;
+    margin: 5px 5px 30px ;
+    padding: 5px 5px 5px 5px;
+    border: #fff 1px solid;
+    text-align: left;
+    background-color: #fff;
+    height: auto;
+    font-size: medium;
+}
+
+.periodo{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+textarea {
+    width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  resize: none;
+
+}
+
+input {
+    background-color: #f2f1ed;
+    width: auto
+}
+
+legend{
+    font-size: 13px;
+}
+
 .textosolo{
     margin: 5px 5px 30px ;
     padding: 5px 5px 5px 5px;
@@ -92,9 +142,9 @@ label{
 .igresosMensuales {
     margin: 5px 5px 30px ;
     padding: 5px 5px 5px 5px;
-    border: #000 1px solid;
+    border: #fff 1px solid;
     text-align: left;
-    background-color: #f2f1ed;
+    background-color: #fff;
     width: 99%;
     height: auto;
     font-size: medium;
@@ -108,9 +158,9 @@ label{
 .radio{
     margin: 5px 5px 30px ;
     padding: 5px 5px 5px 5px;
-    border: #000 1px solid;
+    border: #fff 1px solid;
     text-align: left;
-    background-color: #f2f1ed;
+    background-color: #fff;
     width: 97%;
     height: auto;
     font-size: medium;
@@ -189,6 +239,18 @@ label{
     width: 99%;
     height: auto;
     font-size: medium;
+}
+
+.datosFinancieros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingresos-campo1{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+    
 }
 
 
