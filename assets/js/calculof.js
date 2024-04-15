@@ -27,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
     };
 });
 
+let sum = (a, b) => a+ b;
+console.log(sum(5,7));
+
+
 
 
 
