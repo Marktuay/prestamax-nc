@@ -242,7 +242,7 @@ legend{
     font-size: medium;
 }
 
-.datosFinancieros{
+.datosFinancieros {
     display: flex;
     justify-content: space-between;
 }
