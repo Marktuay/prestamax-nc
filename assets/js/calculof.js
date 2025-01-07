@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const botonCuotaMes = document.getElementById("botonCuotaMes");
 
     botonCuotaMes.onclick = function() {
-        const montoPrestamo = parseFloat(document.querySelector("#monto").value);
-        const tiempoMeses = parseInt(document.querySelector("#tiempo").value);
+        const montoPrestamo = parseFloat(document.querySelector("#monto").value); //dato obtenido del campo del monto;
+        const tiempoMeses = parseInt(document.querySelector("#tiempo").value); //dato obteido del campo de los meses del prestamo; 
         const tasaInteres = 0.02; // Tasa de interés mensual (en porcentaje)
 
         // Limpiar las cuotas previamente calculadas
