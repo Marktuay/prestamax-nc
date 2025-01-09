@@ -540,6 +540,17 @@
           }
       }
     </script>
+    <input type="number" id="tiempo" value="" min="12" max="60" placeholder="Plazo (meses)" class="inputCal" oninput="validateInput()">
+
+    <script>
+    function validateInput() {
+      const input = document.getElementById('tiempo');
+      if (input.value < 12 || input.value > 60) {
+        alert('El valor debe estar entre 12 y 60');
+        input.value = Math.max(12, Math.min(60, input.value));
+      }
+    }
+    </script>
 
   </body>
 </html>
