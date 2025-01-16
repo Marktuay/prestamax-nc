@@ -1452,6 +1452,11 @@ label{
 	display: inline-flex;
 }
 
+/***************************** Saldo ********************************/
 
+#resultadoCuotas {  width: 70%;  margin: auto; padding: 10px; text-align: left; margin-top: 20px; }
+
+
+    
 
 

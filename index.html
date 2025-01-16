@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    
 
   </head>
 
@@ -191,7 +192,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-             <br><br> <h2> Calcule su préstamo</h2>
+             <br><br> <h2> Calcule su <em>Préstamo</em></h2>
               <span>Utilice esta herramienta para calcular su prestamo</span>
               <p>Tasa anual del 12%</p>
             </div>
@@ -209,26 +210,27 @@
           </div>
           <div class="col-md-3">
             <label></label>
-            <input type="number" id="tiempo" value="" min="0" max="60" placeholder="Plazo (meses)" class="inputCal">
+            <input type="number" id="tiempo" onchange="validateInput()" value="" min="0" max="60" placeholder="Plazo (meses)" class="inputCal">
           </div> 
           <div class="col-md-3">
             <div class="botonCalculo">
               <div class="buttonCuotas"><input type="button" id="botonCuotaMes" value="Cuota Mensual" class="buttonCalculo"></div>
               <div class="reset"><input type="reset"  value="Limpiar" class="buttonReset"></div>
-            </div> 
-            
+            </div> <br>
 
           </div>
           <div class="col-md-3">
             <div class="contenedorCuotas"><label > Cuota: </label> </div>
-            <div id="cuotas"></div>
+            <div id="cuotaMensual"></div>
           </div>
           
-             
-          </div>
           
         </div>
       </form>
+      <div class="col-md-12">
+            <div class="section-heading">
+             
+      <div id="resultadoCuotas"></div>
       </div>
           </div>
           </div>
@@ -542,9 +544,10 @@
     </script>
    
 
-    <script>
+   <script>
     function validateInput() {
       const input = document.getElementById('tiempo');
+      console.log('Input value:', input.value); // Agregar log para depuración
       if (input.value < 12 || input.value > 60) {
         alert('El valor debe estar entre 12 y 60');
         input.value = Math.max(12, Math.min(60, input.value));
@@ -554,3 +557,7 @@
 
   </body>
 </html>
+
+
+
+
