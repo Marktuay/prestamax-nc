@@ -72,6 +72,30 @@ a.border-button:hover {
 	margin-bottom: 80px;
 }
 
+.section-heading-one{
+	text-align: center;
+	margin-bottom: 80px;
+	height: 90px;
+}
+.section-heading-one h2 {
+	font-size: 36px;
+	font-weight: 600;
+	color: #1e1e1e;
+}
+.section-heading-one em {
+	font-style: normal;
+	color: #a4c639;
+}
+.section-heading-one span {
+	display: block;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #666;
+	letter-spacing: 1px;
+}
+
+
 .section-heading h2 {
 	font-size: 36px;
 	font-weight: 600;
@@ -579,7 +603,7 @@ ul.slick-dots {
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 140px;
+	margin-top: 20px;
 	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -1406,7 +1430,7 @@ input {
 }
 
 label{
-	width: 100px;	
+	width: 100%;	
 	position: absolute;
 }
 #cuotas{
@@ -1434,7 +1458,11 @@ label{
 	font-weight: 800;
 	
 }
-
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 30px;
+}
 
 /***************************** Form ********************************/
 .form {

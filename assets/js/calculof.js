@@ -6,10 +6,18 @@ document.addEventListener("DOMContentLoaded", function () {
     botonCuotaMes.onclick = function () {
         const montoPrestamo = parseFloat(document.querySelector("#monto").value);
         let tiempoMeses = parseInt(document.querySelector("#tiempo").value);
+        const tipoPrestamo = document.querySelector('input[name="tipoPrestamo"]:checked').value;
+
         // Limitar el tiempo a un máximo de 60 meses
         tiempoMeses = Math.min(tiempoMeses, 60);
 
-        const tasaInteresAnual = 0.12; // Tasa de interés anual fija
+        let tasaInteresAnual;
+        if (tipoPrestamo === 'hipotecario') {
+            tasaInteresAnual = 0.12; // Tasa de interés anual para hipotecario
+        } else if (tipoPrestamo === 'consumo') {
+            tasaInteresAnual = 0.24; // Tasa de interés anual para prestamos a colaboradores
+        }
+
         const tasaInteresMensual = tasaInteresAnual / 12; // Convertir a tasa mensual
 
         // Limpiar las cuotas previamente calculadas
